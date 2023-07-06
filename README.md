@@ -11,9 +11,46 @@ npx cap sync
 
 ## API
 
-<docgen-index></docgen-index>
+<docgen-index>
+
+* [`getRingerMode()`](#getringermode)
+* [`setRingerMode(...)`](#setringermode)
+* [Type Aliases](#type-aliases)
+
+</docgen-index>
 
 <docgen-api>
-<!-- run docgen to generate docs from the source -->
-<!-- More info: https://github.com/ionic-team/capacitor-docgen -->
+<!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
+
+### getRingerMode()
+
+```typescript
+getRingerMode() => Promise<RingerMode>
+```
+
+**Returns:** <code>Promise&lt;<a href="#ringermode">RingerMode</a>&gt;</code>
+
+--------------------
+
+
+### setRingerMode(...)
+
+```typescript
+setRingerMode(data: { mode: RingerMode; }) => Promise<void>
+```
+
+| Param      | Type                                                         |
+| ---------- | ------------------------------------------------------------ |
+| **`data`** | <code>{ mode: <a href="#ringermode">RingerMode</a>; }</code> |
+
+--------------------
+
+
+### Type Aliases
+
+
+#### RingerMode
+
+<code>'normal' | 'silent' | 'vibrate'</code>
+
 </docgen-api>
