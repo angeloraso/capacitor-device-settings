@@ -4,6 +4,6 @@ export interface IRingerMode {
 
 export type RingerMode = 'normal' | 'silent' | 'vibrate'; 
 export interface DeviceSettingsPlugin {
-  getRingerMode(): Promise<RingerMode>;
+  getRingerMode(): Promise<{mode: RingerMode}>;
   setRingerMode(data: { mode: RingerMode }): Promise<void>;
 }

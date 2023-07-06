@@ -25,10 +25,10 @@ npx cap sync
 ### getRingerMode()
 
 ```typescript
-getRingerMode() => Promise<RingerMode>
+getRingerMode() => Promise<{ mode: RingerMode; }>
 ```
 
-**Returns:** <code>Promise&lt;<a href="#ringermode">RingerMode</a>&gt;</code>
+**Returns:** <code>Promise&lt;{ mode: <a href="#ringermode">RingerMode</a>; }&gt;</code>
 
 --------------------
 

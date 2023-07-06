@@ -6,7 +6,7 @@ export class DeviceSettingsWeb
   extends WebPlugin
   implements DeviceSettingsPlugin
 {
-  async getRingerMode(): Promise<RingerMode>{
+  async getRingerMode(): Promise<{mode: RingerMode}>{
     throw this.unimplemented('Not implemented on web.');
   }
 
