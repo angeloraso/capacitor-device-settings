@@ -1,6 +1,6 @@
 {
   "name": "@anuradev/capacitor-device-settings",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Capacitor plugin to get/set device settings",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
